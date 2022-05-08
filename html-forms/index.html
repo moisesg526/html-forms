@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+          <legend>Comments or concerns</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Your name" required autofocus="on"/>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="email" placeholder="Your Email" required autofocus="on"/>
+          </div>
+          <div>
+              <label for="form-message">Enter your message:</label>
+              <textarea name="message" id="form-message" autofocus="on" placeholder="How can we help you?" maxlength="150" cols="100" rows="10"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
